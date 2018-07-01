@@ -1,3 +1,6 @@
+## Purpose:
+Code to create , run and test a vanilla neural network with variable number of layers/ number of nodes per layer (dropout option for training) . Supports sigmoid activation for now, other activation functions will be added in the future. No deep learning frameworks (Tensorflow , caffe, torch etc ... ) were used.
+
 ## Dependencies:
 - Numpy
 - scipy
@@ -19,3 +22,4 @@ Run main.py -h for more instructions
 
 - Prints accuracy on test set as well as results .
 
+Parts were slightly adapted from https://github.com/tombarratt46/Python-Iris-Neural-Net-Classification.
